@@ -1,0 +1,30 @@
+@media print {
+    @page {
+        size: A4;
+    }
+    .langas {
+        display: none;
+    }
+    .aprasymas {
+        position: relative;
+        margin-left:0px
+    }
+    .video{
+        display: none;
+    }
+    .audio{
+        display: none;
+    }
+    .iframe{
+        display: none;
+    }
+    .spausdinti{
+        display: none;
+    }
+    .soc-tinklai{
+        display: none;
+    }
+    *{
+        font-family: "Open Sans", sans-serif;
+    }
+}
