@@ -21,11 +21,7 @@ a:hover{
     margin-bottom: 20px;
 }
   
-.apie.mane {
-    width: fit-content;
-    border: 2px solid #272829 ;
-    border-radius: 5px;
-    padding: 20px;
+.apie-mane {
     margin-bottom: 20px;
 }
   
@@ -38,12 +34,8 @@ a:hover{
 }
 
   
-.atlikti.darbai {
-    width: fit-content;
-    border: 2px solid #272829 ;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
+.atlikti-darbai {
+    margin-bottom: 25px;
 }
   
 .paslaugos {
