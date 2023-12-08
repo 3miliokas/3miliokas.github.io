@@ -131,3 +131,11 @@ footer{
 .spausdinti:hover {
     background-color: lightskyblue;
 }
+
+.formule {
+    width: fit-content;
+    border: 2px solid #272829 ;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
