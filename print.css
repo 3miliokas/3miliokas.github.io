@@ -24,6 +24,12 @@
     .soc-tinklai{
         display: none;
     }
+    .tekstas-virs-laikrodzio{
+        display: none;
+    }
+    .laikrodis{
+        display: none;
+    }
     *{
         font-family: "Open Sans", sans-serif;
     }
