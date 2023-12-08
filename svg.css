@@ -1,0 +1,25 @@
+svg{
+    cursor: poiner;
+}
+#sviesus{
+    fill:lightblue;
+}
+#tamsus{
+    fill:darkblue;
+}
+#sviesus1, #tamsus1, #tamsus2{
+    transition: all 1s ease;
+}
+#tamsus2{
+    transform: translateX(-100%);
+}
+a:hover #sviesus1{    
+    transform: translateX(20%);
+}
+a:hover #tamsus1{
+    transform: translateX(40%);
+    opacity: 0;
+}
+a:hover #tamsus2{
+    transform: translateX(0%);
+}
