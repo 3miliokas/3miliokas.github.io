@@ -1,25 +1,27 @@
 svg{
     cursor: poiner;
 }
-#sviesus{
+#fb-sviesus, #twt-sviesus, #ln-sviesus, #ig-sviesus{
     fill:lightblue;
 }
-#tamsus{
+#fb-tamsus, #twt-tamsus, #ln-tamsus, #ig-tamsus{
     fill:darkblue;
 }
-#sviesus1, #tamsus1, #tamsus2{
+#fb-sviesus1, #twt-sviesus1, #ln-sviesus1, #ig-sviesus1,
+#fb-tamsus1, #twt-tamsus1, #ln-tamsus1, #ig-tamsus1,
+#fb-tamsus2, #twt-tamsus2, #ln-tamsus2, #ig-tamsus2{
     transition: all 1s ease;
 }
-#tamsus2{
+#fb-tamsus2, #twt-tamsus2, #ln-tamsus2, #ig-tamsus2{
     transform: translateX(-100%);
 }
-a:hover #sviesus1{    
+a:hover #fb-sviesus1, a:hover #twt-sviesus1, a:hover #ln-sviesus1, a:hover #ig-sviesus1{    
     transform: translateX(20%);
 }
-a:hover #tamsus1{
+a:hover #fb-tamsus1, a:hover #twt-tamsus1, a:hover #ln-tamsus1, a:hover #ig-tamsus1{
     transform: translateX(40%);
     opacity: 0;
 }
-a:hover #tamsus2{
+a:hover #fb-tamsus2, a:hover #twt-tamsus2, a:hover #ln-tamsus2, a:hover #ig-tamsus2{
     transform: translateX(0%);
 }
