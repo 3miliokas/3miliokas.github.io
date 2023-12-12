@@ -146,3 +146,41 @@ footer{
     font-size: 30px;
     text-shadow: 0 0 20px rgba(10, 175, 230, 1),  0 0 20px rgba(10, 175, 230, 0);
 }
+
+.forma {
+    width: fit-content;
+    border: 2px solid #272829 ;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=date], input[type=email], input[type=number], input[type=tel] {
+    width: 80%; 
+    padding: 12px 10px;
+    margin: 8px 10px;
+    border: dotted #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(197, 206, 216);
+}
+
+.forma input::placeholder{
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.521);
+}
+
+.forma button{
+    background-color: rgb(144, 208, 238);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: crosshair;
+    font-family: monospace;
+    margin-left: 15px;                
+}
+.forma button:hover {
+    background-color: rgb(47, 196, 255);
+}
